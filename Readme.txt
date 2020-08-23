@@ -1,6 +1,7 @@
 Requirements
 1. Dash frameworks installed
-2. Pandas 
+2. Pandas
+3. Numpy
 3. Plotly
 
 Data has been extracted from the Data folder in the repository.
