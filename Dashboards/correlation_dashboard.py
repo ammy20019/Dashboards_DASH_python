@@ -8,6 +8,7 @@ import dash_core_components as dcc
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 sales = pd.read_csv('/home/ammy/Downloads/Book1.csv')
+sales.dropna()
 app.layout = html.Div([
     html.H2('Correlation Dashboard',style={'color': 'orange','text-align': 'center'}),
     html.H4('Sales Amount Vs ',style={'color': 'blue'}),
